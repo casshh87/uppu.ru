@@ -1,0 +1,62 @@
+/* Общий контейнер */
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Заголовок */
+.container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Таблица файлов */
+.file-table {
+    width: 100%; /* Занимает всю ширину контейнера */
+    max-width: 1200px; /* Максимальная ширина таблицы */
+    margin: 0 auto; /* Центровка таблицы */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.file-table th, .file-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.file-table-header {
+    background-color: #f2f2f2;
+}
+
+.file-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Ссылки */
+.view-link {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.view-link:hover {
+    text-decoration: underline;
+}
+
+/* Кнопка "Вернуться на главную" */
+.back-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.back-link a:hover {
+    background-color: #0056b3;
+}

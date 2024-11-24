@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload and Display Image</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="upload-section">
+        <h2>Загрузите файл (не больше 20мб)</h2>
+        <form method="POST" action="upload.php" id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="file" accept="*" class="file-input">
+            <input type="text" name="comment" placeholder="Ваш комментарий (не больше 200 символов)" class="comment-input">
+            <br><br>
+            <button type="submit" class="upload-button">Загрузка</button>
+        </form>
+    </div>
+
+   
+    <div class="image-display" id="imageDisplay">
+        <img id="Image" src="styles/image.jpg" alt="Загруженное изображение" class="display-image">
+    </div>
+
+  
+    <div class="file-list-link">
+        <a href="file_list.php">Список загруженных файлов</a>
+    </div>
+</div>
+
+</body>
+</html>
